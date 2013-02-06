@@ -5,5 +5,7 @@ public class Main {
 		System.out.println("Welcome to the calculator");
 		System.out.println("Fasten your seatbelt!");
 		
+		System.out.println("Wow this is cool!!!");
+		
 	}
 }
