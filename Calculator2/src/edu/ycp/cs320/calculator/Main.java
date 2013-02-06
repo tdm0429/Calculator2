@@ -13,5 +13,7 @@ public class Main {
 		double a = keyboard.nextDouble();
 		double b = keyboard.nextDouble();
 		
+		System.out.println(a + " & " + b);
+		
 	}
 }
