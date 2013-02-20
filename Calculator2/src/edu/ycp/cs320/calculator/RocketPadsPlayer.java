@@ -3,7 +3,6 @@ package edu.ycp.cs320.calculator;
 public class RocketPadsPlayer 
 {
 	// Fields
-	private int dx, dy; // Direction (+X for positive, 0 for stationary, -X for negative).
 	private RocketPadsLocation start, current;
 	private RocketPadsDirection dir;
 	private boolean slide; // Determines if the player is currently sliding (in which case manual controls are disabled).
@@ -42,7 +41,7 @@ public class RocketPadsPlayer
 	// Updates the player's position.
 	public void updatePosition()
 	{
-		current.setX(current.getX() + dx);
-		current.setY(current.getY() + dy);
+		current.setX(current.getX() + dir.getDX());
+		current.setY(current.getY() + dir.getDY());
 	}
 }
