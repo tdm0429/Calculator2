@@ -7,8 +7,8 @@ import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.Button;
 
-import edu.ycp.cs320.calculator.RocketPadsFrame;
-import edu.ycp.cs320.calculator.GameList;
+import edu.ycp.cs320.calculator.shared.GameList;
+import edu.ycp.cs320.calculator.shared.RocketPadsFrame;
 
 
 public class Game_Selection extends Composite {
