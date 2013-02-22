@@ -47,8 +47,8 @@ public class Game_Selection extends Composite {
 	
 	public void update(){
 		if (gameListBox.getItemCount() == 0) {
-			gameList[] games = gameList.values();
-			for (gameList g : games) {
+			GameList[] games = GameList.values();
+			for (GameList g : games) {
 				gameListBox.addItem(g.toString());
 			}
 		}
