@@ -12,6 +12,7 @@ public class RocketPadsPlayer
 	{
 		start = new RocketPadsLocation(0,0);
 		current = new RocketPadsLocation(0,0);
+		dir = RocketPadsDirection.WALK;
 		slide = false;
 	}
 	
@@ -32,16 +33,9 @@ public class RocketPadsPlayer
 		slide = s;
 	}
 	
-	public void setDirection(RocketPadsDirection direction)
-	{
-		dir.setXDir(direction.getDX());
-		dir.setYDir(direction.getDY());
-	}
-	
 	// Updates the player's position.
 	public void updatePosition()
 	{
-		current.setX(current.getX() + dir.getDX());
-		current.setY(current.getY() + dir.getDY());
+		
 	}
 }
