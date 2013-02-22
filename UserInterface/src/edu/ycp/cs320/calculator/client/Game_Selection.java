@@ -1,4 +1,4 @@
-package edu.ycp.cs320.calculator;
+package edu.ycp.cs320.calculator.client;
 
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.LayoutPanel;
@@ -7,7 +7,8 @@ import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.Button;
 
-import edu.ycp.cs320.calculator.gameList;
+import edu.ycp.cs320.calculator.RocketPadsFrame;
+import edu.ycp.cs320.calculator.GameList;
 
 
 public class Game_Selection extends Composite {

@@ -1,6 +1,6 @@
 package edu.ycp.cs320.calculator;
 
-public enum gameList {
+public enum GameList {
 	RocketPads,
 	snake;
 }
