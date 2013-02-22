@@ -25,18 +25,18 @@ public class Game_Selection extends Composite {
 		
 		gameSelection = new InlineLabel("Game:");
 		layoutPanel.add(gameSelection);
-		layoutPanel.setWidgetLeftWidth(gameSelection, 17.0, Unit.PX, 90.0, Unit.PX);
-		layoutPanel.setWidgetTopHeight(gameSelection, 43.0, Unit.PX, 18.0, Unit.PX);
+		layoutPanel.setWidgetLeftWidth(gameSelection, 10.0, Unit.PX, 80.0, Unit.PX);
+		layoutPanel.setWidgetTopHeight(gameSelection, 40.0, Unit.PX, 18.0, Unit.PX);
 		
 		gameListBox = new ListBox();
 		layoutPanel.add(gameListBox);
-		layoutPanel.setWidgetLeftWidth(gameListBox, 128.0, Unit.PX, 191.0, Unit.PX);
-		layoutPanel.setWidgetTopHeight(gameListBox, 43.0, Unit.PX, 26.0, Unit.PX);
+		layoutPanel.setWidgetLeftWidth(gameListBox, 130.0, Unit.PX, 195.0, Unit.PX);
+		layoutPanel.setWidgetTopHeight(gameListBox, 40.0, Unit.PX, 28.0, Unit.PX);
 		
 		selector = new Button();
 		layoutPanel.add(selector);
 		layoutPanel.setWidgetLeftWidth(selector, 150.0, Unit.PX, 200.0, Unit.PX);
-		layoutPanel.setWidgetTopHeight(selector, 43.0, Unit.PX, 32.0, Unit.PX);
+		layoutPanel.setWidgetTopHeight(selector, 40.0, Unit.PX, 35.0, Unit.PX);
 	}
 	
 	
