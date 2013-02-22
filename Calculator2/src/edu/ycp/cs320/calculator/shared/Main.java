@@ -1,4 +1,4 @@
-package edu.ycp.cs320.calculator;
+package edu.ycp.cs320.calculator.shared;
 
 public class Main {
 	public static void main(String[] args) {

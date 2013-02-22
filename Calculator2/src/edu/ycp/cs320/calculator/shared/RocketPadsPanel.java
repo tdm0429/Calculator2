@@ -1,4 +1,4 @@
-package edu.ycp.cs320.calculator;
+package edu.ycp.cs320.calculator.shared;
 
 import java.awt.Color;
 import java.awt.Dimension;
