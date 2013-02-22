@@ -31,12 +31,12 @@ public class Game_Selection extends Composite {
 		
 		gameListBox = new ListBox();
 		layoutPanel.add(gameListBox);
-		layoutPanel.setWidgetLeftWidth(gameListBox, 130.0, Unit.PX, 195.0, Unit.PX);
+		layoutPanel.setWidgetLeftWidth(gameListBox, 130.0, Unit.PX, 230.0, Unit.PX);
 		layoutPanel.setWidgetTopHeight(gameListBox, 40.0, Unit.PX, 28.0, Unit.PX);
 		
 		selector = new Button();
 		layoutPanel.add(selector);
-		layoutPanel.setWidgetLeftWidth(selector, 150.0, Unit.PX, 200.0, Unit.PX);
+		layoutPanel.setWidgetLeftWidth(selector, 275.0, Unit.PX, 300.0, Unit.PX);
 		layoutPanel.setWidgetTopHeight(selector, 40.0, Unit.PX, 35.0, Unit.PX);
 	}
 	
