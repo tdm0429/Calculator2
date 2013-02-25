@@ -5,7 +5,7 @@ public class RocketPadsLocation
 	// Fields
 	private int x, y;
 	
-	RocketPadsLocation(int X, int Y)
+	public RocketPadsLocation(int X, int Y)
 	{
 		x = X;
 		y = Y;
