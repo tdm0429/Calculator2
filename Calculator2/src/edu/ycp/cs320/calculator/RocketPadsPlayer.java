@@ -8,7 +8,7 @@ public class RocketPadsPlayer
 	private boolean slide; // Determines if the player is currently sliding (in which case manual controls are disabled).
 	
 	// Constructor
-	RocketPadsPlayer()
+	public RocketPadsPlayer()
 	{
 		start = new RocketPadsLocation(0,0);
 		current = new RocketPadsLocation(0,0);
@@ -21,6 +21,16 @@ public class RocketPadsPlayer
 	{
 		current.setX(start.getX());
 		current.setY(start.getY());
+	}
+	
+	public RocketPadsLocation getLocation()
+	{
+		return current;
+	}
+	
+	public void setLocation(int x, int y)
+	{
+		current = new RocketPadsLocation(x,y);
 	}
 	
 	public boolean getSlide()
