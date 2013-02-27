@@ -8,12 +8,13 @@ import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.Button;
 
 import edu.ycp.cs320.calculator.shared.GameList;
-import edu.ycp.cs320.calculator.shared.RocketPadsFrame;
+import edu.ycp.cs320.calculator.shared.RocketPadsPanel;
 
 
 public class Game_Selection extends Composite {
 	
-	private RocketPadsFrame floor;
+	private RocketPadsPanel floor;
+	
 	private Button selector;
 	private InlineLabel gameSelection;
 	private ListBox gameListBox;
@@ -41,7 +42,7 @@ public class Game_Selection extends Composite {
 	}
 	
 	
-	public void setFloor(RocketPadsFrame floor){
+	public void setFloor(RocketPadsPanel floor){
 		this.floor = floor;
 	}
 	
