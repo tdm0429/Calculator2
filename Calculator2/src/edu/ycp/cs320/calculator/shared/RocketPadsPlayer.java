@@ -15,10 +15,6 @@ public class RocketPadsPlayer
 		slide = false;
 	}
 	
-	public RocketPadsLocation getLocation(){
-		return current;
-	}
-	
 	// Resets the player's location to his starting location.
 	public void reset_location()
 	{
@@ -26,7 +22,15 @@ public class RocketPadsPlayer
 		current.setY(start.getY());
 	}
 	
-	public void setLocation(int x, int y){
+	//should this really be "RocketPadsLocation getLocation()"?
+	public RocketPadsLocation getLocation()
+	{
+		return current;
+	}
+	
+	public void setLocation(int x, int y)
+	{
+
 		current = new RocketPadsLocation(x,y);
 	}
 	
@@ -40,4 +44,10 @@ public class RocketPadsPlayer
 		slide = s;
 	}
 
+	// Updates the player's position.
+	//Isn't this the same as setLocation?
+	public void updatePosition()
+	{
+		
+	}
 }
